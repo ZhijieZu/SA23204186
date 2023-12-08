@@ -1,0 +1,17 @@
+Package: SA23204186
+Type: Package
+Title: Fitting a stochastic block model
+Version: 1.0
+Date: 2023-12-04
+Author: SA23204186
+Maintainer: SA23204186 <zzj01@mail.ustc.edu.cn>
+Description: This package use the spectral embedding and Gaussian mixture model to fit the stochastic block model. It has two function ,” generater_model” can generate a SBM model with the setting input,” Adjacency spectral embedding and Laplacian embedding” can obtain a embedding space of the adjacency matrix.
+License: GPL (>= 2)
+Imports: Rcpp, boot, bootstrap, microbenchmark, stats4, twosamples
+LinkingTo: Rcpp
+RoxygenNote: 7.2.3
+Encoding: UTF-8
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+URL: http://github.com/ZhijieZu/SA23204186
+BugReports: http://github.com/ZhijieZu/SA23204186/issues
